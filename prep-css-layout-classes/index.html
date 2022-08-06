@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS Layout Classes</title>
+  <link rel="stylesheet" href="reset.css">
+  <style>
+    /* stylelint-disable block-no-empty */
+    body {
+      font-family: sans-serif;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    img {
+      width: 100%;
+    }
+
+    .container {
+      max-width: 992px;
+      margin: auto;
+    }
+
+    .row {
+      width: 100%;
+      display: flex;
+    }
+
+    .column {
+      flex-basis: 33%;
+      padding-left: 8px;
+      padding-right: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Complete the HTML here -->
+  <h1>Indiana Jones</h1>
+  <div class="container">
+    <div class="row">
+      <div class="column">
+        <img src="images/raiders.jpg">
+        <p>A thrilling entertaining movie directed by Steven Spielberg and not only co-written, but
+          co-produced by George Lucas in 1981. Following along our main protaganist Indiana Jones through
+          old ruins riddled with traps in search of archaeological treasures and fight off his competitors
+          the Nazis.
+        </p>
+      </div>
+      <div class="column">
+        <img src="images/temple.jpg">
+        <p>After the success of the previous movie, Steven Spielberg directs the second installment in
+          the Indiana Jones franchise, which is actually the prequel to the first movie. However, the Indian
+          Government prevented them from shooting due to Spielberg refusing the changing of the script. Thus
+          moving production to Sri Lanka and London, but also getting the film banned from India after completion.
+        </p>
+      </div>
+      <div class="column">
+        <img src="images/crusade.jpg">
+        <p>The third installment of the thrilling Indiana Jones franchise. After his father goes missing, when
+          searching for the Holy Grail, Indy uses his father's notebook to find clues on his whereabouts. He
+          is lead to Venice, where he finds assistance from Dr. Elsa Schneider, but is then met with sinister
+          old enemies who are also after the Holy Grail.
+        </p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
